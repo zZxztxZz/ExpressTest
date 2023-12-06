@@ -5,7 +5,7 @@ const {USER_LIST_ADD_USER_ERROR} = require("../public/javascripts/util/Code")
 var user_list = new UserList()
 
 //查询全体用户
-exports.user_list = (req,res)=>{
+exports.user_get_list = (req,res)=>{
     res.json(user_list)
 }
 

@@ -6,7 +6,7 @@ router.get('/', function(req, res, next) {
   res.send('respond with a resource');
 });
 
-router.get('/userAll',user_controller.user_list)
+router.get('/userAll',user_controller.user_get_list)
 
 router.post('/userAdd',user_controller.user_add_post)
 
